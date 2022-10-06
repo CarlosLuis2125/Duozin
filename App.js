@@ -9,7 +9,7 @@ export default function App() {
         <StatusBar style="auto" />
         
       </View>
-      <View style={styles.login}>
+      <View style={styles.loginCadastro}>
         <Button title='Login' onPress={''}></Button>
         
         <Button title='Cadastrar' onPress={''}></Button>
@@ -30,9 +30,10 @@ const styles = StyleSheet.create({
     backgroundColor: '#444',
     
   },
-  login: {
+  loginCadastro: {
     flex: 3,
     backgroundColor: '#fff',
-
+    fontSize: 50,
+  
   },
 });
