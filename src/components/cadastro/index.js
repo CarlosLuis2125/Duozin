@@ -5,10 +5,11 @@ export default function CadastroResponsavel(){
     return(
         <View style={StyleSheet.principal}>
             <View style={StyleSheet.container}>
+                <View>
                 <Text>Logo Duozin</Text>
                 <StatusBar style="auto" />
 
-                {/* TextBox para informar os dados */}
+                </View>
                 <View style={styles.nome}>
                     <TextInput style={styles.input} onChangeText={''} value={Text} placeholder='Nome'></TextInput>
                 </View>
