@@ -1,7 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Button, n, } from 'react-native';
+import React from 'react';
+import { StyleSheet, Text, View, Button} from 'react-native';
 
-export default function App() {
+export default function escolhaLoginECadastro() {
   return (
     <View style={styles.principal}>
       <View style={styles.container}>

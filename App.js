@@ -1,5 +1,5 @@
+import React from "react";
 import { StatusBar } from 'expo-status-bar';
-import React from 'react';
 import { Image, ImageBackground, StyleSheet, Text, Button, View, Alert } from 'react-native';
 import fundo from './images/FundoPrincipal.png';
 
@@ -37,3 +37,4 @@ const styles = StyleSheet.create({
 });
 
 export default App;
+
