@@ -5,14 +5,12 @@ import fundo from './images/FundoPrincipal.png';
 
 const App = () => (
   <View style={styles.container}>
-    <ImageBackground source={require('./images/FundoPrincipal.png')} style={styles.imageBackground}>
-      <Text style={styles.text}>React Native</Text>
-      <Button style={styles.botao}
-        title="Press me"
-        onPress={() => Alert.alert('Simple Button pressed')}
-      />
+      
+      <Image
+        style={styles.logo}
+        source={'./images/'}
+    />
 
-    </ImageBackground>
   </View>
 
 );
@@ -20,7 +18,8 @@ const App = () => (
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    flexDirection: "column"
+    flexDirection: "column",
+    backgroundColor: '#292759'
   },
   imageBackground: {
     flex: 1,
