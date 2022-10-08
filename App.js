@@ -1,27 +1,34 @@
 import React from "react";
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Button, n, } from 'react-native';
-import Login from "./src/components/login/index.js";
+import { Image, ImageBackground, StyleSheet, Text, Button, View, Alert } from 'react-native';
+import logo from './images/LogoBege.png';
+
+const App = () => (
+  <View style={styles.container}>
+
+    <Image
+      style={styles.logo}
+      source={logo}
+    />
 
 
+  </View>
 
-
-export default function App() {
-  return (
-    <View style={styles.input}>
-      <Login/>
-      
-      
-    </View>
-  );
-}
+);
 
 const styles = StyleSheet.create({
-  input: {
+  container: {
     flex: 1,
-    
+    flexDirection: "column",
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#292759'
   },
+  logo: {
+    width: 250,
+    height: 250,
+  }
+
 });
 
-
-
+export default App;
